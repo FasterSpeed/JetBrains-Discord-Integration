@@ -25,9 +25,9 @@ import com.intellij.openapi.project.Project
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
-private const val title = "Show project in Rich Presence?"
+private const val title = "Pokazywać Discord RPC w projekcie?"
 private const val content =
-    "Select if this project should be visible. You can change this later at any time under Settings > Other Settings > Discord > Project"
+    "Kliknij czy ma pokazywać discord RPC. Jak chcesz to offnąć wejdź w  Settings > Other Settings > Discord > Project"
 
 private val group = NotificationGroup(
     "${Plugin.getId()}.project.show",

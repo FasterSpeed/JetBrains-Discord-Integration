@@ -127,8 +127,8 @@ enum class PresenceText(override val text: String, override val description: Str
 private fun RenderContext.getPrefix(file: Data.File): String {
     return when (settings.filePrefixEnabled.getValue()) {
         true -> when (file.fileIsWriteable) {
-            true -> "Editing "
-            false -> "Reading "
+            true -> "Programuje "
+            false -> "Czyta "
         }
         false -> ""
     }
